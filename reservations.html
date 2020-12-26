@@ -1,0 +1,147 @@
+<html>
+
+    <head>
+    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rerservations.</title>
+        <link rel="stylesheet" href="stlyesheet/footer.css">
+        <link rel="stylesheet" href="stlyesheet/bootstrap.min.Navbar.css">
+        <link rel="stylesheet" href="stlyesheet/reservations_style.css">
+        
+        <script language="javascript" type="text/javascript"> 
+        
+            function validateReservation() {
+                
+              var valueDate = document.getElementById('checkin').value;
+              if (!valueDate) {
+                  alert("Check-In date is empty!");
+                  return;
+              }
+            }
+            
+            function validateReservation() {
+                
+              var valueDate = document.getElementById('checkout').value;
+              if (!valueDate) {
+                  alert("Check-Out date is empty!");
+                  return;
+              }
+            }
+        
+        </script>
+    
+    </head>
+    
+    <body>
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light text-capitalize main-font-family">
+            <div class="container">
+                <a class="navbar-brand" href="homepage.html"><img src="images/logo.png" width="250" height="100" alt="logo" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="show-menu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="homepage.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="room.html"></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="reservations.html">Hotel Reservation<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Multiple Hotel
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#gallerypage">Viwe photo Gallery</a>
+                                <a class="dropdown-item" href="#facilitypage">Hotel Facilities</a>
+                                <a class="dropdown-item" href="#mappage">Map</a>
+                            </div>
+                        </li>
+                        <li class="nav-item align-items-center">
+                            <a class="nav-link" href="#regpage">Registration</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="reservation">
+    
+            <h2> Make A Reservation Online </h2>
+        
+            <div class="datepanel">
+
+                <form name="reservationForm">
+
+                    <label for="checkin"> Check-In </label> <br>
+
+                    <input type="date" class="date-item" id="checkin" name="checkin"> <br>
+
+                    <label for="checkout"> Check-Out </label> <br>
+
+                    <input type="date" class="date-item" id="checkout" name="checkout"> <br>
+
+                    <input type="submit" style="border:none;" class="date-item" value="Check Availability" name="checkavailability" onClick="validateReservation();">
+
+                </form>
+
+            </div>
+            
+        </div>
+        
+         <footer class="noto-font-family">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <h3>Useful links</h3>
+                            <ul class="text-capitalize">
+                                <li><a href="homepage.html">Home</a></li>
+                                <li><a href="aboutus.html">About Us</a></li>
+                                <li><a href="#roomspage">Rooms</a></li>
+                                <li><a href="contactus.html">Contact Us</a></li>
+                                <li><a href="#mappage">Map</a></li>
+                                <li><a href="#gallerypage">Gallery</a></li>
+                                <li><a href="#regpage">Register</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <h3>Find us</h3>
+                            <p>Sri Lanka<br>
+                                Gall Rd,80500e<br>
+                                +94110023456<br>
+                                +94110123456<br>
+                                seasidesouthpark@gmail.com
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 form">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <div>
+        </div>
+        
+    
+    </body>
+
+</html>
