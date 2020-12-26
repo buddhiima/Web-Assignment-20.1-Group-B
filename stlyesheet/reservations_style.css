@@ -1,0 +1,39 @@
+.reservation {
+    width: 100%;
+    height: 1000px;
+    background-image: url('../images/reservation_bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.datepanel {
+    border: 1px hidden white;
+    margin: auto;
+    padding: 50px;
+    width: 350px;
+    height: 360px;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    box-sizing: border-box;
+}
+
+.reservation h2 {
+    font-style: italic;
+    text-align: center;
+    color: FFFFFF;
+    padding: 55px;
+    font-size: 35px;
+}
+
+.reservation label {
+    font-size: 20px;
+}
+
+.date-item {
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    font-weight: 500;
+}
