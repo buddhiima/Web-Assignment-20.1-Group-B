@@ -49,7 +49,7 @@
     width: 580px;
     right: 210px;
     margin: 70px;
-    background-image: url('../images/premium.jpg');
+    background-image: url('../images/deluxe.jpg');
     background-size: cover;
     position: relative;
 }
@@ -59,7 +59,7 @@
     width: 580px;
     right: 210px;
     margin: 70px;
-    background-image: url('../images/superior.jpg');
+    background-image: url('../images/twin.jpg');
     background-size: cover;
     position: relative;
 }
@@ -69,7 +69,7 @@
     width: 580px;
     right: 210px;
     margin: 70px;
-    background-image: url('../images/twin.jpg');
+    background-image: url('../images/superior.jpg');
     background-size: cover;
     position: relative;
 } 
@@ -79,7 +79,7 @@
     width: 580px;
     right: 210px;
     margin: 70px;
-    background-image: url('../images/deluxe.jpg');
+    background-image: url('../images/premium.jpg');
     background-size: cover;
     position: relative;
 } 
