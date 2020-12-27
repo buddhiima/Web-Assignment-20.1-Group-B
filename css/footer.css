@@ -88,21 +88,3 @@ footer form input:last-of-type {
     top: -2px;
     height: 37px;
 }
-
-.copyright {
-    text-align: center;
-    padding: 15px 0;
-}
-
-.copyright p {
-    margin: 0
-}
-
-.copyright p a {
-    color: #222;
-}
-
-.copyright p a:hover,
-.copyright p a:focus {
-   color: #cc0000;
-}
