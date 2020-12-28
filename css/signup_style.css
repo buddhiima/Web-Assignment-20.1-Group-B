@@ -1,0 +1,46 @@
+.signup {
+    width: 100%;
+    height: 1000px;
+    background-image: url('../images/signup_bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signuppanel {
+    border: 1px hidden white;
+    margin: auto;
+    padding: 0px;
+    width: 450px;
+    height: 370px;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+    box-sizing: border-box;
+}
+
+.signup h2 {
+    font-style: italic;
+    text-align: center;
+    color: FFFFFF;
+    padding: 45px;
+    font-size: 35px;
+}
+
+.signup input[type=submit] {
+    background-color: #3c3042;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: FFFFFF;
+    cursor: pointer;
+    width: 75%;
+    font-size: 19px;
+    margin: 20px;
+}
+
+.signup input[type=text] , input[type=password] {
+    margin: 7px;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
