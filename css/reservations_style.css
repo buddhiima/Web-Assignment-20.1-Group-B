@@ -12,9 +12,9 @@
     margin: auto;
     padding: 50px;
     width: 350px;
-    height: 360px;
+    height: 330px;
     background-color: #FFFFFF;
-    opacity: 0.8;
+    opacity: 0.9;
     box-sizing: border-box;
 }
 
@@ -36,4 +36,22 @@
     margin-right: auto;
     width: 250px;
     font-weight: 500;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.submit-button {
+    border: none;
+    background-color: #4490ab;
+    border-radius: 5px;
+    padding: 10px;
+    color: FFFFFF;
+    cursor: pointer;
+    width: 100%;
+    font-size: 17px;
+    margin: 15px 10px;
+}
+
+.input {
+    border: none;
 }
