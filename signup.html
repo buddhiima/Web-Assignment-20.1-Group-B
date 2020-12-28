@@ -3,30 +3,78 @@
     <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sign Up.</title>
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/bootstrap.min.Navbar.css">
+        <link rel="stylesheet" href="css/signup_style.css"> 
 </head>
-<body>
-    <div class="about lobster-font-family">
+
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light text-capitalize main-font-family">
             <div class="container">
-                <h2 class="text-center text-capitalize">Sign Up</h2>
-                <div class="Signup">
-                    <br>
-                    <center>
-                    <form>
-                        <table>
-                        <tr><td>Full Name: </td><td><input type="text" id="Name"></td></tr>
-                        <tr><td>Contact Number: </td><td><input type="text" id="contactno"></td></tr>
-                        <tr><td>Email: </td><td><input type="text" id="email"></td></tr>
-                        <tr><td>User Name: </td><td><input type="text" id="uname"></td></tr>
-                        <tr><td>Password: </td><td><input type=password id="password"></td></tr>
-                        <tr><td>Confirm Password: </td><td><input type="password" id="cpassword"></td></tr>
-                        </table>
-                    </form>
-                        <button id="submit">Submit</button>
-                    </center>
+                <a class="navbar-brand" href="homepage.html"><img src="images/logo.png" width="250" height="100" alt="#" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="show-menu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="homepage.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="room.html">Room</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reservations.html">Hotel Reservation</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Multiple Hotel
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#gallerypage">Viwe photo Gallery</a>
+                                <a class="dropdown-item" href="#facilitypage">Hotel Facilities</a>
+                                <a class="dropdown-item" href="#mappage">Map</a>
+                            </div>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="signup.html">Registration<span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
                 </div>
+            </div>
+        </nav>
+        
+        <div class="about lobster-font-family">
+                <div class="signup">
+                    <h2 class="text-center text-capitalize">Sign Up</h2>
+                    <div class="signuppanel">
+                        <br>
+                        <center>
+                        <form name="signupForm">
+                            <table>
+                            <tr><td>Full Name: </td><td><input type="text" name="name" id="name"></td></tr>
+                            <tr><td>Contact Number: </td><td><input type="text" name="contactno" id="contactno"></td></tr>
+                            <tr><td>Email: </td><td><input type="text" name="email" id="email"></td></tr>
+                            <tr><td>User Name: </td><td><input type="text" name="uname" id="uname"></td></tr>
+                            <tr><td>Password: </td><td><input type=password name="password" id="password"></td></tr>
+                            <tr><td>Confirm Password: </td><td><input type="password" name="cpassword" id="cpassword"></td></tr>
+                            </table>
+                            <input type="submit" id="submit" value="Submit" onClick="validateSignup();">
+                        </form>
+                        </center>
+                    </div>
+            </div>
         </div>
-    </div>
-    <footer class="noto-font-family">
+    
+        <footer class="noto-font-family">
             <div class="overlay">
                 <div class="container">
                     <div class="row">
@@ -62,5 +110,8 @@
                 </div>
             </div>
     </footer>
+        
+        <script language="javascript" type="text/javascript" src="javascript/signup_javascript.js"></script>
+        
 </body>
 </html>
