@@ -9,28 +9,6 @@
         <link rel="stylesheet" href="css/bootstrap.min.Navbar.css">
         <link rel="stylesheet" href="css/reservations_style.css">
         
-        <script language="javascript" type="text/javascript"> 
-        
-            function validateReservation() {
-                
-              var valueDate = document.getElementById('checkin').value;
-              if (!valueDate) {
-                  alert("Check-In date is empty!");
-                  return;
-              }
-            }
-            
-            function validateReservation() {
-                
-              var valueDate = document.getElementById('checkout').value;
-              if (!valueDate) {
-                  alert("Check-Out date is empty!");
-                  return;
-              }
-            }
-        
-        </script>
-    
     </head>
     
     <body>
@@ -54,7 +32,7 @@
                             <a class="nav-link" href="contactus.html">Contact Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="room.html"></a>
+                            <a class="nav-link" href="room.html">Room</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="reservations.html">Hotel Reservation<span class="sr-only">(current)</span></a>
@@ -93,7 +71,7 @@
 
                     <input type="date" class="date-item" id="checkout" name="checkout"> <br>
 
-                    <input type="submit" style="border:none;" class="date-item" value="Check Availability" name="checkavailability" onClick="validateReservation();">
+                    <input type="submit" class="date-item submit-button" value="Check Availability" name="checkavailability" onClick="validateReservation();">
 
                 </form>
 
@@ -114,7 +92,7 @@
                                 <li><a href="contactus.html">Contact Us</a></li>
                                 <li><a href="#mappage">Map</a></li>
                                 <li><a href="#gallerypage">Gallery</a></li>
-                                <li><a href="#regpage">Register</a></li>
+                                <li><a href="signup.html">Register</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-4 col-md-6 col-12">
@@ -141,7 +119,8 @@
         <div>
         </div>
         
-    
+    <script language="javascript" type="text/javascript" src="javascript/rservations_javascript.js"></script>
+        
     </body>
 
 </html>
