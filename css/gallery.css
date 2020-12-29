@@ -1,0 +1,85 @@
+.gallery {
+    padding: 70px 0;
+    background-image: url('bgimg');
+    background-size: cover;
+}
+
+.gallery h2 {
+    margin-bottom: 50px;
+}
+
+.gallery .col-lg-4 > div{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    transition: transform .3s;
+}
+
+.gallery .col-lg-4 > div h4 {
+    position: relative;
+    top: 40px;
+    z-index: 3;
+    text-align: center;
+}
+
+.gallery .col-lg-4 > div.active {
+    height: 630px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+}
+
+.zoom:hover{
+    -ms-transform:scale(1.5);
+    -webkit-transform:scale(1.5);
+    transform: scale(1.5);
+    z-index: 5;
+}
+
+.gallery .pic-one,
+.gallery .pic-two,
+.gallery .pic-three,
+.gallery .pic-four,
+.gallery .pic-five,
+.gallery .pic-six,
+.gallery .pic-seven,
+.gallery .pic-eight,
+.gallery .pic-nine{
+    background-position: center;
+    background-size: cover;
+}
+
+.gallery .pic-one {
+    background-image: url('squreimg');
+}
+.gallery .pic-two {
+    background-image: url('squreimg');
+}
+.gallery .pic-three {
+    background-image: url('longimg');
+}
+.gallery .pic-four {
+    background-image: url('squreimg');
+}
+.gallery .pic-five {
+    background-image: url('squreimg');
+}
+.gallery .pic-six {
+    background-image: url('squreimg');
+}
+.gallery .pic-seven {
+    background-image: url('squreimg');
+}
+.gallery .pic-eight {
+    background-image: url('longimg');
+}
+.gallery .pic-nine {
+    background-image: url('squreimg');
+}
+.gallery .pic-ten {
+    background-image: url('squreimg');
+}
+
