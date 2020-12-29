@@ -1,0 +1,242 @@
+
+/* header */
+
+header {
+    color: white;
+    background-color:bisque;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 720px;
+        
+}
+
+header h1 {
+    font-size: 65px;
+    position: absolute;
+    z-index: 15;
+}
+
+header h1 span {
+    color: black;
+    border: 0px solid #FFF;
+    font-size: 60px;
+    line-height: 1;
+    padding: 10px
+}
+
+header .small-container {
+    padding-top: 150px;
+    position: relative;
+    width: 100%;
+}
+
+header button {
+    display: block;
+    transform: skew(-25deg);
+    padding: 10px 40px;
+    border: none;
+    background-color: #ffcc33;
+    position: absolute;
+    bottom: 0;
+}
+
+header button a {
+    color: black;
+}
+
+header form {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    z-index: 50;
+    display: flex;
+}
+
+header form input[type='search'] {
+    width: 70%;
+    border: none;
+    padding: 5px 5px 5px 30px;
+}
+
+header form i {
+    color: black;
+    position: absolute;
+    left: 7px;
+    top: 8px;
+}
+
+header input[type="submit"] {
+    width: 30%;
+    position: relative;
+    right: 0;
+    border: none;
+    height: 40px;
+    background-color: #cc0000;
+    color: white;
+}
+
+header .welcome {
+    position: relative;
+    left: 15px;
+}
+
+.st-rec, .rd-rec {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.st-rec {
+    left: 0;
+}
+
+.rd-rec {
+   right: 0; 
+}
+
+header .carousel-control-next, header .carousel-control-prev {
+    position: absolute;
+    left: -35px;
+    bottom: 0;
+    width: 70px;
+    height: 40px;
+    z-index: 3;
+    font-size: 25px;
+}
+
+header .carousel-control-next {
+    background-color: #ffcc33;
+    text-align: right !important;
+    top: 320px;
+    color: black 
+}
+
+header .carousel-control-prev {
+    background-color: #ffcc33;
+    color: black !important;
+    top: 370px;
+}
+
+header .carousel-control-next i {
+    width: 60%;
+    margin: 0 auto;
+    text-align: right;
+}
+
+header .carousel-control-prev i {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+header .h-slider {
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    width: 60%;
+    left: 40%;
+    padding-top: 0;
+}
+
+header .carousel,
+header .carousel-inner,
+header .carousel img,
+header .carousel-item, 
+header .carousel-item.active {
+    height: 100%;
+    height: 100%
+}
+
+header .row {
+    padding: 0 30px;
+    height: 400px
+}
+
+header .slide,
+header .carousel-inner {
+    width: 100%;
+    height: 100%;
+}
+
+header .carousel-item {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+header .carousel-one {
+    background-image: url(../images/3.jpg);
+}
+
+header .carousel-two {
+    background-image: url(../images/2.jpg);
+}
+
+header .carousel-three {
+    background-image: url(../images/01.jpg);
+}
+
+header button a {
+    transform: skew(26deg);
+    float: left;
+    width: 100%;
+}
+
+
+
+
+
+/* slider */
+
+.slider {
+    height: 450px;
+    padding: 50px 0;
+    margin-bottom: 30px
+}
+
+.slider h2 {
+    font-size: 45px;
+}
+    
+.slider .carousel-indicators li {
+    background-color: #ffcc00;
+    padding: 6px;
+    border-radius: 0;
+    opacity: 1;
+}
+
+.slider .carousel-indicators li.active {
+    background-color: #000;
+}
+
+.slider .carousel-inner {
+    height: 400px
+}
+
+.slider .carousel-inner .carousel-item {
+    height: 100%
+}
+
+.slider .carousel-inner .carousel-item h5, .slider .carousel-inner .carousel-item p {
+    color: black;
+}
+
+.slider .carousel-inner .carousel-item h5 {
+    color: #ffcc00;
+    font-size: 25px
+}
+
+.slider .carousel-inner .carousel-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px
+}
+
+
