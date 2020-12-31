@@ -16,6 +16,7 @@
     background-color: #FFFFFF;
     opacity: 0.9;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 .signup h2 {
