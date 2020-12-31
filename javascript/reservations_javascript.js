@@ -12,5 +12,15 @@ function validateReservation() {
             alert("Check-Out date is empty!");
             return;
         }
+    
+    if(document.reservationForm.type.selectedIndex==0) {
+        alert("Please select type of room.");
+        return;
+    }
+    
+    if(document.reservationForm.meal.selectedIndex==0) {
+        alert("Please select your meal plan.");
+        return;
+    }
 }
             
