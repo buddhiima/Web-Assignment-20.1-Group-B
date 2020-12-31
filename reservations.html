@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Rerservations.</title>
+        <link rel="icon" type="image/x.com" href="images/favicon.jpg">
         <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="css/bootstrap.min.Navbar.css">
         <link rel="stylesheet" href="css/reservations_style.css">
@@ -61,7 +62,7 @@
         
             <div class="datepanel">
 
-                <form name="reservationForm">
+                <form name="reservationForm" method="POST" action="http://localhost/reservations.php">
 
                     <label for="checkin"> Check-In </label> <br>
 
@@ -69,9 +70,30 @@
 
                     <label for="checkout"> Check-Out </label> <br>
 
-                    <input type="date" class="date-item" id="checkout" name="checkout"> <br>
+                    <input type="date" class="date-item" id="checkout" name="checkout"> <br> <br>
+                    
+                    <label for="type"> Type of room </label>
+                    
+                    <select name="type" id="type">
+                        <option value="Select Room Type"> Select Room Type </option>
+                        <option value="premium"> Premium Room </option>
+                        <option value="superior"> Superior Room </option>
+                        <option value="twin"> Twin Room </option>
+                        <option value="deluxe"> Deluxe Room </option>
+                        <option value="oceanic balcony suite"> Oceanic Balcony Suite </option>
+                    </select> <br>
+                    
+                    <label for="meal"> Meal Plan </label> <br>
+                    
+                    <select name="meal" id="meal">
+                        <option value="Select Meal Plan"> Select Meal Plan </option>
+                        <option value="allmeals"> All Meals </option>
+                        <option value="onlybreakfast"> Only Breakfast </option>
+                        <option value="onlyroom"> Only Room </option>
+                        
+                    </select>
 
-                    <input type="submit" class="date-item submit-button" value="Check Availability" name="checkavailability" onClick="validateReservation();">
+                    <input type="submit" class="date-item submit-button" value="Make reservation now" name="reserve" onClick="validateReservation();">
 
                 </form>
 
